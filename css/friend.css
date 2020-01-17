@@ -9,7 +9,46 @@
   height: 50px;
   border-radius: 40%;
 }
+.friend__avatar.m-avatar {
+  width: 60px;
+}
 
 .friend__avatar.g-avatar {
   width: 70px;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+.friend .friend__avatar {
+  margin-right: 15px;
+}
+
+.friend__content .friend__name {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.friend__content .friend__status,
+.friend__content .friend__bottom-text,
+.friend .chat__timestamp {
+  opacity: 0.8;
+}
+.friend__content .friend__status,
+.friend .chat__timestamp {
+  font-size: 12px;
+}
+.friend__content .friend__bottom-text {
+  font-size: 14px;
+}
+
+.friend .friend__now-listening {
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 1px solid #29643e;
+  font-size: 14px;
+}
+.friend__now-listening span {
+  opacity: 0.6;
 }
