@@ -11,10 +11,12 @@
 }
 .friend__avatar.m-avatar {
   width: 60px;
+  height: 60px;
 }
 
 .friend__avatar.g-avatar {
   width: 70px;
+  height: 70px;
 }
 
 .friend .friend__column {
